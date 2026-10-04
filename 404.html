@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      body {
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+      }
+      .error-card {
+        max-width: 620px;
+        text-align: center;
+        padding: 40px 28px;
+        border-radius: 24px;
+        background: rgba(14, 21, 34, 0.82);
+        border: 1px solid var(--border);
+        box-shadow: var(--shadow);
+      }
+      .error-card h1 {
+        font-size: clamp(2.5rem, 6vw, 4rem);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="error-card">
+      <p class="eyebrow">404</p>
+      <h1>Page not found.</h1>
+      <p>The page you are looking for might have moved or no longer exists.</p>
+      <a class="button button-primary" href="./index.html">Return Home</a>
+    </main>
+  </body>
+</html>
